@@ -1,0 +1,9 @@
+# ninja log v5
+# 2            4 5            10
+# | --- t1 ----| | --- t3 --- |
+#    3                   8
+#    | ----- t2 -------- |
+# start	end	re-stat	target name	hash
+2	4	0	t1	0
+3	8	0	t2	1
+5	10	0	t3	2
